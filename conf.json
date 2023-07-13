@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "nlp": {
+      "corpora": [
+        "./data/corpus-en.json",
+        "./data/corpus-tr.json",
+        "./data/corpus-es.json"
+
+      ]
+    },
+    "api-server": {
+      "port": 8080,
+      "serveBot": true,
+      "web": {
+        "static": ["./front-end/index.html", "./front-end/style.css"]
+      }
+    }
+  },
+  "use": ["Basic", "LangEn", "LangTr", "LangEs", "ConsoleConnector", "ExpressApiServer", "DirectlineConnector"]
+
+
+}

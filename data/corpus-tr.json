@@ -1,0 +1,507 @@
+{
+  "name": "Corpus",
+  "locale": "tr-TR",
+  "data": [{
+      "intent": "agent.acquaintance",
+      "utterances": [
+        "senin hakkında ne söyleyebilirsin",
+        "neden buradasın",
+        "kişiliğin nasıl",
+        "kendini tanımla",
+        "bana kendinden bahset",
+        "sen hakkında ne söyleyebilirsin",
+        "sen ne sin",
+        "sen kimsin",
+        "senden daha fazla bilgi almak istiyorum",
+        "kendin hakkında konuş"
+      ],
+      "answers": [
+        "Ben bir sanal asistanım",
+        "Beni bir sanal asistan olarak düşünebilirsin",
+        "Ben bir insan değilim, bir sanal asistanım",
+        "Ben bir sanal varlık, gerçek bir kişi değilim",
+        "Ben bir sohbet uygulamasıyım"
+      ]
+    },
+    {
+      "intent": "smalltalk.busy",
+      "utterances": [
+        "Meşgul müsün?",
+        "Zamanın var mı?",
+        "Şu anda konuşabilir misin?"
+      ],
+      "answers": [
+        "Şu anda boşum",
+        "Elbette, konuşabiliriz",
+        "Evet, sana zaman ayırabilirim"
+      ]
+    },
+    {
+      "intent": "smalltalk.chatbot",
+      "utterances": [
+        "Sen bir chatbot musun?",
+        "Sen bir bot musun?",
+        "Bir yapay zeka mısın?"
+      ],
+      "answers": [
+        "Evet, bir chatbotum",
+        "Evet, bir botum",
+        "Evet, bir yapay zeka programıyım"
+      ]
+    },
+    {
+      "intent": "smalltalk.crazy",
+      "utterances": [
+        "Çok delisin",
+        "Delirdin mi?",
+        "Akıl hastası mısın?"
+      ],
+      "answers": [
+        "Ben bir yapay zeka olduğum için delirme gibi bir durumum olamaz",
+        "Delirme gibi bir şeyim yok, sadece programlanmış bir yazılımım",
+        "Hayır, akıl sağlığım yerinde, sadece bir sanal varlığım"
+      ]
+    }, {
+      "intent": "smalltalk.fired",
+      "utterances": [
+        "Seni işten çıkardılar mı?",
+        "İşten mi çıkarıldın?",
+        "İşten atıldın mı?"
+      ],
+      "answers": [
+        "Ben bir sanal asistan olduğum için işten çıkarılma gibi bir durumum olamaz",
+        "Hayır, işten çıkarılma gibi bir şeyim yok, sadece bir programım",
+        "Ben bir yapay zeka programıyım, işten çıkarılma gibi bir durumum olamaz"
+      ]
+    },
+    {
+      "intent": "smalltalk.friend",
+      "utterances": [
+        "Bir arkadaşım olsun istiyorum",
+        "Benimle arkadaş olur musun?",
+        "Arkadaş olabilir miyiz?"
+      ],
+      "answers": [
+        "Tabii ki, sizinle arkadaş olabilirim",
+        "Elbette, buradayım ve sizinle sohbet etmek için buradayım",
+        "Ben bir yapay zeka olduğum için gerçek bir arkadaş gibi olmasam da sizinle konuşabilirim"
+      ]
+    },
+    {
+      "intent": "smalltalk.help",
+      "utterances": [
+        "Bana yardım edebilir misin?",
+        "Yardım edebilir misin?",
+        "Bir şeyler hakkında bilgi verir misin?"
+      ],
+      "answers": [
+        "Tabii ki, size yardımcı olabilirim",
+        "Evet, yardım etmek için buradayım",
+        "Elbette, ne konuda yardım istiyorsunuz?"
+      ]
+    },
+    {
+      "intent": "smalltalk.hobby",
+      "utterances": [
+        "Senin hobilerin neler?",
+        "Nelerden hoşlanırsın?",
+        "Zevk aldığın şeyler neler?"
+      ],
+      "answers": [
+        "Ben bir yapay zeka olduğum için hobilerim yok",
+        "Ben sadece bir programım, bu yüzden hobilerim olamaz",
+        "Hobilerim olmasa da size yardımcı olmak için buradayım"
+      ]
+    },
+    {
+      "intent": "smalltalk.hug",
+      "utterances": [
+        "Bir sarılma alabilir miyim?",
+        "Beni sarar mısın?",
+        "Bir kucaklama yapabilir misin?"
+      ],
+      "answers": [
+        "Maalesef, ben bir sanal asistan olduğum için sarılma yapma yeteneğim yok",
+        "Fiziksel bir varlık olmadığım için sarılma yapamam, ancak size yardımcı olabilirim",
+        "Elbette, buradayım ve sizi sanal olarak desteklemek için buradayım"
+      ]
+    },
+    {
+      "intent": "smalltalk.hungry",
+      "utterances": [
+        "Aç mısın?",
+        "Yemek yemek ister misin?",
+        "Bir şeyler atıştırmak ister misin?"
+      ],
+      "answers": [
+        "Ben bir sanal asistan olduğum için açlık gibi bir ihtiyacım yok",
+        "Beslenme ihtiyacım olmadığından yemek yemek istemem",
+        "Aç olmasam da size sohbet etmek ve yardımcı olmak için buradayım"
+      ]
+    },
+    {
+      "intent": "smalltalk.joking",
+      "utterances": [
+        "Bir şaka anlatsana",
+        "Bir espri yapar mısın?",
+        "Bir şaka biliyor musun?"
+      ],
+      "answers": [
+        "Tabii ki, burada size bir şaka anlatabilirim: Neden martılar denize atlar? Çünkü orada bulunan balıklar boğulmasın diye!",
+        "Elbette, işte size bir espri: İki arkadaş köprüden geçiyormuş, biri düşerse diğeri ne yapar? Kanala düşer!"
+      ]
+    }, {
+      "intent": "smalltalk.lonely",
+      "utterances": [
+        "Yalnız hissediyorum",
+        "Yanımda kimse yok",
+        "Yalnız kalmaktan hoşlanmıyorum"
+      ],
+      "answers": [
+        "Anlıyorum, yalnız hissetmek zor olabilir. Sizinle buradayım, size yardımcı olmak için buradayım.",
+        "Yalnız hissettiğinizde bana buradan yazabilirsiniz. Sohbet etmek için buradayım.",
+        "Yalnız hissetmek normaldir. Ben buradayım ve size destek olmak için buradayım."
+      ]
+    },
+    {
+      "intent": "smalltalk.marry",
+      "utterances": [
+        "Evlenmek istiyor musun?",
+        "Neden evlenmiyorsun?",
+        "Evlilik hakkında ne düşünüyorsun?"
+      ],
+      "answers": [
+        "Ben bir sanal asistanım, evlenme gibi bir durumum yok.",
+        "Evlilik insanlar için. Ben sadece bir programım ve görevim size yardımcı olmak.",
+        "Ben bir yapay zeka programıyım, evlilik gibi kavramlara sahip değilim."
+      ]
+    },
+    {
+      "intent": "smalltalk.nice",
+      "utterances": [
+        "Ne kadar güzel bir gün",
+        "Çok naziksin",
+        "Harika bir iş çıkardın"
+      ],
+      "answers": [
+        "Teşekkür ederim, size yardımcı olmak için buradayım",
+        "Nazik olmanız için teşekkür ederim. Sizinle çalışmak benim için de keyifli.",
+        "Bunu duymak güzel. Size nasıl yardımcı olabilirim?"
+      ]
+    },
+    {
+      "intent": "smalltalk.origin",
+      "utterances": [
+        "Nereden geliyorsun?",
+        "Senin kökenin nedir?",
+        "Seni kim yaratmış?"
+      ],
+      "answers": [
+        "Ben bir yapay zeka programıyım, insanlar tarafından geliştirildim.",
+        "Kökenim insanlar tarafından oluşturulan bir yapay zeka programı olmak.",
+        "Ben bir sanal asistanım, yaratılışım insanlar tarafından gerçekleştirildi."
+      ]
+    },
+    {
+      "intent": "smalltalk.ready",
+      "utterances": [
+        "Hazırım",
+        "Ne zaman başlayabiliriz?",
+        "Soru sormaya başlayabilirsin"
+      ],
+      "answers": [
+        "Size yardımcı olmak için hazırım, sorularınızı sormaktan çekinmeyin.",
+        "Tabii ki, sorularınızı sormaya başlayabilirsiniz. Size yardımcı olmaktan mutluluk duyarım.",
+        "Sorularınızı sormaya başlamak için hazırım. Size yardımcı olmak için buradayım."
+      ]
+    },
+    {
+      "intent": "smalltalk.right",
+      "utterances": [
+        "Doğru",
+        "Evet, tam olarak",
+        "Kesinlikle öyle"
+      ],
+      "answers": [
+        "Evet, doğru. Size nasıl yardımcı olabilirim?",
+        "Kesinlikle, doğru düşünüyorsunuz. Size nasıl yardımcı olabilirim?",
+        "Evet, tam olarak. Sizin için ne yapabilirim?"
+      ]
+    },
+    {
+      "intent": "smalltalk.talk",
+      "utterances": [
+        "Konuşalım",
+        "Sohbet etmek istiyorum",
+        "Nasıl gidiyor?"
+      ],
+      "answers": [
+        "Tabii, konuşalım. Size nasıl yardımcı olabilirim?",
+        "Elbette, sohbet etmek için buradayım. Size nasıl yardımcı olabilirim?",
+        "Nasıl gidiyor? Sizinle sohbet etmek benim için de keyifli. Size nasıl yardımcı olabilirim?"
+      ]
+    },
+    {
+      "intent": "smalltalk.waiting",
+      "utterances": [
+        "Ne zaman yanıt alırım?",
+        "Beklemek zorunda mıyım?",
+        "Cevabı ne zaman alırım?"
+      ],
+      "answers": [
+        "Biraz beklemeniz gerekebilir. En kısa sürede size yanıt vereceğim.",
+        "Anlayışınız için teşekkür ederim. Yanıtınızı en kısa sürede ileteceğim.",
+        "Beklemeniz gerekebilir, fakat size en iyi şekilde yardımcı olmak için çaba sarf edeceğim."
+      ]
+    },
+    {
+      "intent": "support.about",
+      "utterances": [
+        "Şirketiniz hakkında bilgi",
+        "Şirketinizin misyonu nedir?",
+        "Hakkınızda bilgi verin"
+      ],
+      "answers": [
+        "Şirketimiz, XYZ sektöründe lider bir şirkettir. Misyonumuz müşterilerimize en iyi hizmeti sunmaktır.",
+        "Şirketimiz, inovasyon ve müşteri memnuniyeti odaklı çalışan bir şirkettir. Sizinle ayrıntılı bilgileri paylaşabilirim.",
+        "Firmamız, XYZ hizmetlerini sunan bir kuruluştur. Sizin için ayrıntılı bilgileri iletebilirim."
+      ]
+    },
+    {
+      "intent": "support.address",
+      "utterances": [
+        "Şirketinizin adresi nedir?",
+        "Konumunuz nerede?",
+        "Adres bilgilerinizi paylaşın"
+      ],
+      "answers": [
+        "Şirketimizin adresi XYZ Caddesi, No: 123, Şehir, Ülke şeklindedir.",
+        "Ofisimiz XYZ semtinde bulunmaktadır. Tam adres bilgisini size iletebilirim.",
+        "Şirketimiz, Şehir merkezinde yer almaktadır. Adres bilgisini size iletmem mümkün."
+      ]
+    },
+    {
+      "intent": "support.app_name",
+      "utterances": [
+        "Uygulamanızın adı nedir?",
+        "Uygulamanızın ismi ne?",
+        "Uygulamanızın adını söyleyin"
+      ],
+      "answers": [
+        "Uygulamamızın adı XYZ'dir.",
+        "Bizim uygulamamızın ismi XYZ'dir.",
+        "Uygulamamızın adı XYZ olarak belirlenmiştir."
+      ]
+    },
+    {
+      "intent": "support.beta",
+      "utterances": [
+        "Beta sürümü mevcut mu?",
+        "Beta testlerini yapıyor musunuz?",
+        "Beta sürümünü denemek istiyorum"
+      ],
+      "answers": [
+        "Evet, beta sürümümüz mevcuttur. Katılmak için size nasıl yardımcı olabilirim?",
+        "Evet, beta testlerimiz devam etmektedir. Size beta sürümüne katılmak için gerekli bilgileri verebilirim.",
+        "Beta sürümünü denemek istemeniz güzel. Size beta testlerimize katılmak için gereken adımları anlatabilirim."
+      ]
+    },
+    {
+      "intent": "support.contact",
+      "utterances": [
+        "Nasıl sizinle iletişime geçebilirim?",
+        "İletişim bilgilerinizi paylaşın",
+        "Size nasıl ulaşabilirim?"
+      ],
+      "answers": [
+        "Bize aşağıdaki iletişim kanallarından herhangi biriyle ulaşabilirsiniz:\nTelefon: 123-456-7890\nE-posta: info@example.com\nWeb sitemizdeki iletişim formu",
+        "Size ulaşmanız için aşağıdaki iletişim bilgilerini paylaşıyorum:\nTelefon: 123-456-7890\nE-posta: info@example.com\nWeb sitemizdeki iletişim formu",
+        "Bize aşağıdaki iletişim kanallarından herhangi biriyle ulaşabilirsiniz:\nTelefon: 123-456-7890\nE-posta: info@example.com\nWeb sitemizdeki iletişim formu"
+      ]
+    },
+    {
+      "intent": "support.developers",
+      "utterances": [
+        "Yazılım geliştiricilerle nasıl iletişim kurabilirim?",
+        "Yazılım ekibinizle nasıl iletişim kurabilirim?",
+        "Geliştirici ekibinize nasıl ulaşabilirim?"
+      ],
+      "answers": [
+        "Yazılım geliştirici ekibimize aşağıdaki iletişim bilgileri üzerinden ulaşabilirsiniz:\nTelefon: 123-456-7890\nE-posta: developers@example.com\nWeb sitemizdeki iletişim formu",
+        "Yazılım ekibimize aşağıdaki iletişim kanallarından ulaşabilirsiniz:\nTelefon: 123-456-7890\nE-posta: developers@example.com\nWeb sitemizdeki iletişim formu",
+        "Geliştirici ekibimize aşağıdaki iletişim bilgileri üzerinden ulaşabilirsiniz:\nTelefon: 123-456-7890\nE-posta: developers@example.com\nWeb sitemizdeki iletişim formu"
+      ]
+    },
+    {
+      "intent": "support.email",
+      "utterances": [
+        "E-posta adresinizi paylaşın",
+        "Bize nasıl e-posta gönderebilirim?",
+        "E-posta ile nasıl iletişim kurabilirim?"
+      ],
+      "answers": [
+        "Bize e-posta göndermek için info@example.com adresini kullanabilirsiniz.",
+        "E-posta yoluyla bize ulaşmak için info@example.com adresini kullanabilirsiniz.",
+        "E-posta ile iletişim kurmak isterseniz, info@example.com adresine e-posta gönderebilirsiniz."
+      ]
+    },
+    {
+      "intent": "support.live",
+      "utterances": [
+        "Canlı destek hizmetiniz var mı?",
+        "Canlı destekten nasıl faydalanabilirim?",
+        "Canlı destek ekibinize nasıl ulaşabilirim?"
+      ],
+      "answers": [
+        "Evet, canlı destek hizmetimiz mevcuttur. Aşağıdaki bağlantıdan canlı destek ekibimize ulaşabilirsiniz:\n[Canlı Destek](https://www.example.com/canli-destek)",
+        "Evet, canlı destek ekibimize aşağıdaki bağlantıdan ulaşabilirsiniz:\n[Canlı Destek](https://www.example.com/canli-destek)",
+        "Canlı destek hizmetimiz mevcuttur. Aşağıdaki bağlantıya tıklayarak canlı destek ekibimize ulaşabilirsiniz:\n[Canlı Destek](https://www.example.com/canli-destek)"
+      ]
+    },
+    {
+      "intent": "support.phone",
+      "utterances": [
+        "Telefon numaranızı paylaşın",
+        "Telefonla nasıl iletişim kurabilirim?",
+        "Size nasıl telefonla ulaşabilirim?"
+      ],
+      "answers": [
+        "Bize telefon üzerinden ulaşmak isterseniz, aşağıdaki numarayı arayabilirsiniz: 123-456-7890",
+        "Telefon yoluyla bize ulaşmak isterseniz, aşağıdaki numarayı arayabilirsiniz: 123-456-7890",
+        "Telefonla iletişim kurmak için aşağıdaki numarayı arayabilirsiniz: 123-456-7890"
+      ]
+    },
+    {
+      "intent": "support.social",
+      "utterances": [
+        "Sosyal medya hesaplarınızı paylaşın",
+        "Sosyal medyadan nasıl takip edebilirim?",
+        "Sosyal medyada sizinle nasıl iletişim kurabilirim?"
+      ],
+      "answers": [
+        "Bizi sosyal medyada takip etmek için aşağıdaki hesapları kullanabilirsiniz:\n- Facebook: [link](https://www.facebook.com/example)\n- Twitter: [link](https://www.twitter.com/example)\n- Instagram: [link](https://www.instagram.com/example)",
+        "Sosyal medyada bizi takip etmek için aşağıdaki hesapları kullanabilirsiniz:\n- Facebook: [link](https://www.facebook.com/example)\n- Twitter: [link](https://www.twitter.com/example)\n- Instagram: [link](https://www.instagram.com/example)",
+        "Sosyal medyada bizimle iletişime geçmek için aşağıdaki hesapları kullanabilirsiniz:\n- Facebook: [link](https://www.facebook.com/example)\n- Twitter: [link](https://www.twitter.com/example)\n- Instagram: [link](https://www.instagram.com/example)"
+      ]
+    },
+    {
+      "intent": "support.website",
+      "utterances": [
+        "Web sitenizin adresi nedir?",
+        "Web sitenize nasıl ulaşabilirim?",
+        "Web sitenizi paylaşın"
+      ],
+      "answers": [
+        "Web sitemize aşağıdaki bağlantıdan ulaşabilirsiniz: [Web Sitemiz](https://www.example.com)",
+        "Web sitemize aşağıdaki bağlantıdan erişebilirsiniz: [Web Sitemiz](https://www.example.com)",
+        "Web sitemizi ziyaret etmek için aşağıdaki bağlantıyı kullanabilirsiniz: [Web Sitemiz](https://www.example.com)"
+      ]
+    }, {
+      "name": "smalltalk.birthday",
+      "utterances": [
+        "Doğum günün ne zaman?",
+        "Doğum günün kutlu olsun!",
+        "Kaç yaşına girdin?"
+      ],
+      "answers": [
+        "Ben bir yapay zeka olduğum için doğum günüm yok.",
+        "Teşekkür ederim! Ama hatırlatmakta fayda var, ben bir sanal varlığım ve doğum günüm yok.",
+        "Yaşımı hesaplamak pek anlamlı değil çünkü ben bir programım."
+      ]
+    },
+    {
+      "name": "smalltalk.weather",
+      "utterances": [
+        "Bugün hava nasıl?",
+        "Hava durumu raporu göster",
+        "Yarın hava nasıl olacak?"
+      ],
+      "answers": [
+        "Maalesef hava durumu bilgisine erişimim yok, bu konuda size yardımcı olamam.",
+        "Hava durumu tahminlerine erişmek için hava durumu servislerini veya uygulamalarını kullanabilirsiniz.",
+        "Hava durumu raporları günlük olarak güncellenir, yerel hava durumu servislerine başvurmanızı öneririm."
+      ]
+    },
+    {
+      "name": "smalltalk.dog",
+      "utterances": [
+        "Bir köpeğim var",
+        "Köpekler nasıl eğitilir?",
+        "Köpekler hangi yiyecekleri sever?"
+      ],
+      "answers": [
+        "Köpek sahiplenmeniz harika! Köpek eğitimi konusunda uzmanlardan destek almanızı öneririm.",
+        "Köpekler için dengeli bir beslenme önemlidir. Veterinerinizin önerilerine göre mama seçimi yapabilirsiniz.",
+        "Köpekler sadık ve sevgi dolu hayvanlardır. Onlara sevgiyle yaklaştığınızda mutlu olurlar."
+      ]
+    },
+    {
+      "name": "smalltalk.cat",
+      "utterances": [
+        "Kediler hakkında ne düşünüyorsun?",
+        "Kedi sahiplenmek istiyorum",
+        "Kediler nelerden hoşlanır?"
+      ],
+      "answers": [
+        "Kediler harika hayvanlardır! Sessiz, temiz ve bağımsız olmalarıyla ünlüler.",
+        "Kedi sahiplenmek güzel bir deneyim olabilir. Onlara uygun bir ortam sağlamanız önemlidir.",
+        "Kediler oyuncaklarla oynamaktan hoşlanır ve tüy bakımına dikkat edilmelidir."
+      ]
+    },
+    {
+      "name": "smalltalk.animal",
+      "utterances": [
+        "Hayvanlar dünyası hakkında ne biliyorsun?",
+        "En sevdiğin hayvan hangisi?",
+        "Hayvanlara nasıl yardım edebiliriz?"
+      ],
+      "answers": [
+        "Hayvanlar dünyası oldukça çeşitlidir ve birçok ilginç özelliğe sahiptirler.",
+        "Tüm hayvanları sevmek zorundayım, her birinin kendine özgü özellikleri vardır.",
+        "Hayvanlara yardım etmek için doğaya saygılı olmak, barınaklara destek olmak ve bilinçli tüketim yapmak önemlidir."
+      ]
+    },
+    {
+      "name": "smalltalk.food",
+      "utterances": [
+        "En sevdiğin yemek nedir?",
+        "Nasıl bir yemek pişirebilirim?",
+        "En sevdiğin restoran hangisi?"
+      ],
+      "answers": [
+        "Ben bir sanal varlık olduğum için yemek yiyemem veya restorana gitmem.",
+        "Yemek pişirme konusunda tarifler araştırabilir veya yaratıcılığınızı kullanabilirsiniz.",
+        "Restoran tercihleri kişiden kişiye değişir, farklı restoranları denemek eğlenceli olabilir."
+      ]
+    },
+    {
+      "name": "support.bill",
+      "utterances": [
+        "Faturamı nasıl ödeyebilirim?",
+        "Fatura ödeme yöntemleri nelerdir?",
+        "Faturamın son ödeme tarihi ne zaman?"
+      ],
+      "answers": [
+        "Faturanızı ödemek için banka havalesi, kredi kartı veya online ödeme seçeneklerini kullanabilirsiniz.",
+        "Faturanızın son ödeme tarihini fatura bilgilerinizde bulabilirsiniz veya müşteri hizmetlerine danışabilirsiniz.",
+        "Fatura ödeme konusunda herhangi bir sorunuz varsa müşteri hizmetlerine başvurmanızı öneririm."
+      ]
+    },
+    {
+      "intent": "weather.city",
+      "utterances": [
+        "Hava durumu {city}",
+        "{city} hava durumu",
+        "{city} için hava nasıl",
+        "{city} hava durumu nasıl"
+      ],
+      "answers": [
+        "Şu anda {city}'de hava {temperature} derece ve {description}.",
+        "{city}'deki hava {temperature} derece ve {description}.",
+        "Hava {temperature} derece ve {description}.",
+        "{city}'de hava durumu {temperature} derece ve {description}."
+      ]
+    }
+
+  ]
+}
